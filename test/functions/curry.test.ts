@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { curry } from '../functions/curry';
+import { curry } from '../../functions/curry';
 
 describe('curry函数测试', () => {
     it('应该正确柯里化一个三参数函数', () => {

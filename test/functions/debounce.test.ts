@@ -1,4 +1,4 @@
-import { debounce } from '../functions/debounce';
+import { debounce } from '../../functions/debounce';
 import { vi, describe, test, expect } from 'vitest';
 
 describe('debounce function', () => {

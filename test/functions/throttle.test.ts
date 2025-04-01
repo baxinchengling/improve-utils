@@ -1,4 +1,4 @@
-import { throttle } from '../functions/throttle';
+import { throttle } from '../../functions/throttle';
 import { vi, describe, test, expect } from 'vitest';
 
 describe('throttle function', () => {

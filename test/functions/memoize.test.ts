@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { memoize } from '../functions/memoize';
+import { memoize } from '../../functions/memoize';
 
 // describe('memoize函数测试', () => {
 //     it('应该缓存函数调用结果', () => {
