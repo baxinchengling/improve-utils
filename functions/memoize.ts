@@ -1,5 +1,5 @@
 
-function memoize<T extends (...args: any[]) => any>(fn: T): T {
+export function memoize<T extends (...args: any[]) => any>(fn: T): T {
     const cache = new Map<string, ReturnType<T>>()
     return function(this: unknown, ...args: Parameters<T>): ReturnType<T> {
         const key = JSON.stringify(args)
