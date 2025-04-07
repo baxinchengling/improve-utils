@@ -20,9 +20,9 @@ export class Chainable<T> {
 }
 
 // 示例使用
-const result = new Chainable<number>(1)
-    .chain((x) => x + 1) // 加1
-    .chain((x) => x * 2) // 乘以2
-    .getValue(); // 获取最终结果
+// const result = new Chainable<number>(1)
+//     .chain((x) => x + 1) // 加1
+//     .chain((x) => x * 2) // 乘以2
+//     .getValue(); // 获取最终结果
 
-console.log(result); // 输出: 4
+// console.log(result); // 输出: 4

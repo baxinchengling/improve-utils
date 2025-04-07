@@ -158,7 +158,7 @@ export function useMultiFLIP(): (elements: Element[], options?: FLIPOptions) => 
     }
     let firstRects = new Map<Element, DOMRect>();
 
-    return function (elements, ...args) {
+    return function (elements, args) {
         _elements = Array.from(elements);
         options = {...options, ...args}
         // 记录所有元素的初始状态
