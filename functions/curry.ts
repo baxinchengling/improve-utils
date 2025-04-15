@@ -4,6 +4,7 @@
  * @returns 柯里化后的函数
  */
 export function curry<T extends (...args: any[]) => any>(fn: T) {
+    // 函数入参数量
     const arity = fn.length;
 
     return function curried(...args: any[]): any {
