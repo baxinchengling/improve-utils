@@ -2,16 +2,23 @@
   "name": "improve-utils",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "test": "vitest"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --loader ts-node/esm test.ts",
+    "dev_vite": "vite-node test.ts"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "esm": "^3.2.25",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vite-node": "^3.1.1",
     "vitest": "^3.1.1"
   }
 }
